@@ -11,6 +11,7 @@
 
         var sum_credit = $("#price").val();
         var srok_credit = $("#cur_period").val();
+        // var credit_link = $("#credit_link").val();
 
         var sc = 0;
 
@@ -131,6 +132,7 @@
             var max_per = Number(cart.bank_offers[i].offers[0].term.max);
             var rate = Number(cart.bank_offers[i].rate);
             var rating = Number(cart.bank_offers[i].rating);
+            var cr_link = cart.bank_offers[i].credit_link;
 
             var cu_ = Number(cart.bank_offers[i].cu);
             var target_ = cart.bank_offers[i].target;
@@ -264,7 +266,7 @@
                     "<span class='currency-symbol'></span></div><div class='_1pSh9'  style='/*margin-bottom:-110px;*/'>" +
                     "Переплата</div></div></div></div><div class='_2Owx8 _18vXl _30A4I'><div class='OjtGY' >" +
                     "<div class='ma2lQ _37Nkr' ><div ><div class='_3ktnw _36BEl' ><a style='display:none;' target='_blank' >" +
-                    "Сравнить</a></div><a target='_blank' class='_2sdWW _1AAND RaZ2S _3x77s'  data-test='ui-button' >" +
+                    "Сравнить</a></div><a target='_blank' href='" + cr_link + "' class='_2sdWW _1AAND RaZ2S _3x77s'  data-test='ui-button' >" +
                     "<span class='' >Перейти</span></a></div></div></div></div></div></div></div><div class='_3ZJAJ'><div class='_20fBJ'><div class='_1Nnoa _1wJD0'>Ставка</div><div class='mvsgY _3YiJZ _1IV07'>от" + rate
                     + "%</div></div><div class='_20fBJ'><div class='_1Nnoa _1wJD0'>Платеж</div><div class='mvsgY _3YiJZ _1IV07'>" + month_p +
                     "<span class='currency-symbol'>" + str_v + "</span>/мес</div></div></div><div class='_3ZJAJ'><div class='_20fBJ'><div class='_2fowT _36BEl I8VA_' data-test='n=show-group'><span class='zlZmW'>Сравнить</span><svg class='_2HEu9'><use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#arrow-down-thin'></use></svg></div></div><div class='_20fBJ'><div><a target='_blank' class='_2sdWW _1AAND RaZ2S _3x77s' href='' data-test='ui-button'><span class=''>Перейти</span></a></div></div></div></li>";

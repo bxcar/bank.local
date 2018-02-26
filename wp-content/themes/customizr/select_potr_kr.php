@@ -45,6 +45,7 @@ foreach( $result as $p ){
 		$PotrKr[$i]['stag'] = get_post_meta( $p['ID'], 'stag', true);
 		$PotrKr[$i]['stag_last'] = get_post_meta( $p['ID'], 'stag_last', true);
 		$PotrKr[$i]['gr'] = get_post_meta( $p['ID'], 'gr', true);
+		$PotrKr[$i]['credit_link'] = get_post_meta( $p['ID'], 'credit_link', true); //fx link
 		$term = array();
 		$term['min']=get_post_meta( $p['ID'], 'term_min', true);
 		$term['max']=get_post_meta( $p['ID'], 'term_max', true);
