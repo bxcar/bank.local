@@ -1,0 +1,720 @@
+/**
+* Theme Name: Customizr
+* Theme URI: https://presscustomizr.com/customizr
+* Description: Customizr is a simple and fast WordPress theme designed to help you attract and engage more visitors. Provides a perfect user experience on smartphones. Powers more then 100K active sites around the world. Hundreds of 5-stars reviews received on WordPress.org.
+* Version: 4.0.14
+* Author: nikeo
+* Author URI: https://presscustomizr.com/
+* Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, buddypress, custom-menu, custom-colors, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, sticky-post, post-formats, rtl-language-support, editor-style
+* Text Domain: customizr
+* Copyright: (c) 2013 - 2017 Nicolas GUILLAUME (nikeo), Nice, France
+* License: GNU General Public License v2.0 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/**
+* The styleheets of Customizr are located in inc/assets/css. Each skin has its own stylesheet : blue.css, green.css, ...
+* The current stylesheet is loaded after the main skin stylesheet.
+*
+* IMPORTANT : If you write your CSS code below, it will be deleted when you'll update the theme.
+* If you want to make quick style test / changes, consider using the Custom CSS section in appearance > customize > advanced options > Custom CSS, it will persist on update since it is saved in your database.
+* To make important CSS customizations, you'll want to use a child theme and add your css code in the style.css file of it.
+*/
+  
+ .container-html {
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+        }
+        .square-bank {
+            position: inherit;
+            margin-right: auto;
+            margin-left: 6%;
+        }
+        .DIV_1 {
+            bottom: 0px;
+            float: left;
+            height: 250px;
+            left: 0px;
+            min-height: 1px;
+            position: relative;
+            right: 0px;
+            text-align: left;
+            top: 0px;
+            width: 249.5px;
+            perspective-origin: 124.75px 125px;
+            transform-origin: 124.75px 125px;
+            font: normal normal 400 normal 15px / 20.1px Arial, Helvetica, sans-serif;
+        }
+        .DIV_2 {
+            bottom: 0px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px 0px;
+            box-sizing: border-box;
+            height: 232px;
+            left: 0px;
+            position: relative;
+            right: 0px;
+            text-align: left;
+            top: 0px;
+            width: 231.5px;
+            perspective-origin: 115.75px 116px;
+            transform-origin: 115.75px 116px;
+            background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 1px solid rgb(228, 228, 228);
+            border-radius: 1px 1px 1px 1px;
+            font: normal normal 400 normal 15px / 20.1px Arial, Helvetica, sans-serif;
+            margin: 0px 9px 18px;
+            padding: 22px 0px 0px;
+        }
+        .DIV_2:hover img {
+            display: none;
+        }
+        .DIV_2:hover #SPAN_10 {
+            display: block;
+        }
+        .A_3 {
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            text-align: left;
+            text-decoration: none solid rgb(0, 0, 0);
+            column-rule-color: rgb(0, 0, 0);
+            caret-color: rgb(0, 0, 0);
+            border-top: 0px none rgb(0, 0, 0);
+            border-right: 0px none rgb(0, 0, 0);
+            border-bottom: 1px dashed rgb(0, 0, 0);
+            border-left: 0px none rgb(0, 0, 0);
+            font: normal normal 400 normal 15px / 12px Arial, Helvetica, sans-serif;
+            outline: rgb(0, 0, 0) none 0px;
+        }
+        .IMG_4 {
+            cursor: pointer;
+            display: block;
+            height: 65px;
+            max-width: 100%;
+            text-align: left;
+            width: 71px;
+            perspective-origin: 35.5px 32.5px;
+            transform-origin: 35.5px 32.5px;
+            font: normal normal 400 normal 15px / 12px Arial, Helvetica, sans-serif;
+            margin: 0px 79.25px;
+        }
+        .SPAN_5 {
+            cursor: pointer;
+            display: block;
+            height: 38px;
+            text-align: center;
+            width: 195.063px;
+            perspective-origin: 97.5313px 19px;
+            transform-origin: 97.5313px 19px;
+            font: normal normal 400 normal 17px / 19px Conv_SeroPro, Arial, Tahoma, sans-serif;
+            margin: 24px 17.2188px 0px;
+        }
+        .BR_6 {
+            cursor: pointer;
+            text-align: center;
+            font: normal normal 400 normal 17px / 19px Conv_SeroPro, Arial, Tahoma, sans-serif;
+        }
+        .SPAN_7 {
+            color: rgb(168, 168, 168);
+            display: block;
+            height: 18px;
+            letter-spacing: 0.1px;
+            text-align: center;
+            text-decoration: none solid rgb(168, 168, 168);
+            width: 195.063px;
+            column-rule-color: rgb(168, 168, 168);
+            perspective-origin: 97.5313px 9px;
+            transform-origin: 97.5313px 9px;
+            caret-color: rgb(168, 168, 168);
+            border: 0px none rgb(168, 168, 168);
+            font: normal normal 400 normal 13px / 18px Arial, Tahoma, sans-serif;
+            margin: 12px 17.2188px;
+            outline: rgb(168, 168, 168) none 0px;
+        }
+        .SPAN_8 {
+            color: rgb(168, 168, 168);
+            cursor: pointer;
+            display: block;
+            height: 0px;
+            letter-spacing: 0.1px;
+            text-align: center;
+            text-decoration: none solid rgb(168, 168, 168);
+            width: 195.063px;
+            column-rule-color: rgb(168, 168, 168);
+            perspective-origin: 97.5313px 0px;
+            transform-origin: 97.5313px 0px;
+            caret-color: rgb(168, 168, 168);
+            border: 0px none rgb(168, 168, 168);
+            font: normal normal 400 normal 13px / 18px Arial, Tahoma, sans-serif;
+            margin: 12px 17.2188px;
+            outline: rgb(168, 168, 168) none 0px;
+        }
+        .SPAN_9 {
+            box-sizing: border-box;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            display: none;
+            min-height: 40px;
+            text-align: left;
+            text-decoration: none solid rgb(255, 255, 255);
+            column-rule-color: rgb(255, 255, 255);
+            perspective-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            caret-color: rgb(255, 255, 255);
+            background: rgb(47, 159, 19) none repeat scroll 0% 0% / auto padding-box border-box;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 4px 4px 4px 4px;
+            font: normal normal 400 normal 16px / 12.8px Conv_SeroPro;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 10px 20px;
+            transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
+        }
+        #SPAN_10 {
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            display: none;
+            text-align: center;
+            background-color: #2f9f13;
+            min-height: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            font-size: 16px;
+            width: 60%;
+            margin-top: 2rem;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 5px;
+        }
+        #SPAN_10:hover {
+            background-color: #25800e;
+        }
+        .SPAN_11 {
+            bottom: 14px;
+            cursor: pointer;
+            display: none;
+            height: 36px;
+            position: absolute;
+            right: 14px;
+            text-align: left;
+            width: 36px;
+            perspective-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+        .fl {
+            float: left;
+            position: relative;
+        }
+        .fr {
+            float: right;
+        }
+
+        .mr-0 {
+            margin-right: 0px;
+        }
+
+        .ml-0 {
+            margin-left: 0px;
+        }
+
+        .item-list {
+            margin: 0px 0px;
+            padding: 15px 20px 0px 20px;
+            width: 100%;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+
+            transition: 0.5s ease-out;
+        }
+
+        .item-list:hover {
+            transition: 0.5s;
+            -webkit-box-shadow: 0px 0px 42px -9px rgba(0, 0, 0, 0.39);
+            -moz-box-shadow: 0px 0px 42px -9px rgba(0, 0, 0, 0.39);
+            box-shadow: 0px 0px 42px -9px rgba(0, 0, 0, 0.39);
+        }
+
+        /* Звездочки для рейтинга Начало */
+
+        .rating {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+            text-align: left;
+        }
+
+        .rating>span {
+            display: inline-block;
+            position: relative;
+            width: 1.1em;
+        }
+
+        .rating>span:hover,
+        .rating>span:hover~span {
+            color: transparent;
+        }
+
+        .rating>span:hover:before,
+        .rating>span:hover~span:before {
+            content: "\2605";
+            position: absolute;
+            left: 0;
+            color: gold;
+        }
+
+        /* Звездочки для рейтинга Конец */
+
+        .credit-list {
+            position: inherit;
+        }
+
+        .title-item {
+            padding: 0 0 0 8rem;
+        }
+
+        .stavki {
+            padding-top: 15px;
+        }
+
+        .title-kredit {
+            font-family: Ubuntu, sans-serif;
+            font-size: 19px;
+            line-height: 20px;
+            display: inline-block;
+            font-weight: 700;
+            color: #00a5e0;
+        }
+
+        .platej {
+            color: rgb(100, 100, 100);
+            display: block;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .text-small {
+            color: rgb(168, 168, 168);
+            height: 18px;
+            text-align: center;
+            text-decoration: none;
+            width: 195.063px;
+            column-rule-color: rgb(168, 168, 168);
+            perspective-origin: 97.5313px 9px;
+            transform-origin: 97.5313px 9px;
+            caret-color: rgb(168, 168, 168);
+            border: 0px none rgb(168, 168, 168);
+            font: normal normal 400 normal 13px / 18px Arial, Tahoma, sans-serif;
+            margin: 12px 17.2188px;
+            outline: rgb(168, 168, 168) none 0px;
+        }
+
+        .icon-compare {
+            height: 20px;
+        }
+
+        .btn-green {
+            color: #fff;
+            border-color: #0dd149;
+            background-color: #0dd149;
+            font-family: 'Open Sans', 'PT Sans', sans-serif;
+            display: inline-block;
+            min-width: 110px;
+            padding: 0 11px;
+            margin-top: 1rem;
+            text-align: center;
+            line-height: 32px;
+            border-radius: 4px;
+            outline: 0;
+            border: 0px solid #bebebe;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        .btn-green:hover {
+            background-color: rgb(8, 175, 59);
+        }
+
+        /*   Аккордион Начало    */
+
+        .accordion {
+            position: inherit;
+            max-width: 100%;
+            margin: 0 auto 100px;
+            border-top: 1px solid #d9e5e8;
+        }
+
+        .accordion li {
+            border-bottom: 1px solid #d9e5e8;
+            position: relative;
+        }
+
+        .accordion li p {
+            display: none;
+            padding: 10px 25px 30px;
+        }
+
+        .accordion a {
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            line-height: 3;
+            font-size: 20px;
+            text-indent: 15px;
+            user-select: none;
+            font-family: 'Open Sans', 'PT Sans', sans-serif;
+        }
+
+        .accordion a:after {
+            width: 8px;
+            height: 8px;
+            border-right: 1px solid #4a6e78;
+            border-bottom: 1px solid #4a6e78;
+            position: absolute;
+            right: 10px;
+            content: " ";
+            top: 17px;
+            transform: rotate(-45deg);
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .accordion p {
+            font-size: 18px;
+            line-height: 2;
+            padding: 10px;
+        }
+
+        .accordion-2 {
+            position: inherit;
+            max-width: 100%;
+        }
+        
+        .accordion-2 .text-small {
+            width: auto;
+        }
+
+        .accordion-2 li {
+            /*            border-bottom: 1px solid #d9e5e8;*/
+            position: relative;
+        }
+
+        .accordion-2 li .tab-accordion {
+            display: none;
+            padding: 10px 25px 30px;
+        }
+
+        .accordion-2 a {
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            line-height: 3;
+            font-size: 20px;
+            text-indent: 15px;
+            user-select: none;
+            font-family: 'Open Sans', 'PT Sans', sans-serif;
+        }
+
+        .accordion-2 a:after {
+            width: 8px;
+            height: 8px;
+            border-right: 1px solid #4a6e78;
+            border-bottom: 1px solid #4a6e78;
+            position: absolute;
+            content: " ";
+            margin-left: 2rem;
+            top: 27px;
+            transform: rotate(-45deg);
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .accordion-2 p {
+            font-size: 18px;
+            line-height: 2;
+            padding: 10px;
+        }
+        
+        .accordion-2 .money {
+            margin-right: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+        }
+
+        a.active:after {
+            transform: rotate(45deg);
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+
+        /*   Аккордион Конец    */
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .calc {
+            margin-left: 5%;
+        }
+
+        /* Input Range */
+
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: inherit
+        }
+
+        .noUi-origin {
+            position: absolute;
+            height: 0;
+            width: 0;
+        }
+
+        .field-range,
+        .info__q-inner {
+            position: relative;
+        }
+
+        .field-range__input-native {
+            width: 358px;
+            height: auto;
+            padding: 14px 75px 10px 15px;
+            display: block;
+            border: 1px solid #e5e5e5;
+            border-bottom: none;
+            font-size: 24px;
+            line-height: 1;
+            border-radius: 0;
+            outline: none;
+            text-overflow: ellipsis;
+            box-shadow: none;
+            -moz-appearance: none;
+            -o-appearance: none;
+            -ms-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .field-range__measure {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            bottom: 0;
+            background: #fff;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 1;
+            font-size: 23px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .jumbotron__calculator {
+            max-width: 450px;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            border-radius: 2px;
+            width: 100%;
+            height: 3px;
+            background-image: -webkit-linear-gradient(left, #0dd149 0%, #0dd149 0%, #fff 0%, #fff 100%);
+            margin: 0;
+            box-shadow: inset #d6d6d6 0 0 5px;
+            outline: none;
+            transition: .1s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border: 3px solid #0dd149;
+            border-radius: 50%;
+            transition: .1s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover,
+        input[type="range"]::-webkit-slider-thumb:active {
+            width: 26px;
+            height: 26px;
+        }
+
+        /* Input Range */
+
+        .title-span {
+            font-family: Ubuntu, sans-serif;
+            font-size: 30px;
+            line-height: 30px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .money {
+            box-sizing: content-box;
+            font-size: 29px;
+            padding-top: 5px;
+            padding-left: 0px;
+            padding-bottom: 14px;
+            margin-left: 50px;
+            text-align: left;
+            white-space: nowrap;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            color: #333;
+        }
+
+        .date-calc {
+            box-sizing: content-box;
+            font-size: 29px;
+            padding-top: 5px;
+            padding-left: 0px;
+            padding-bottom: 14px;
+            margin-left: 50px;
+            text-align: left;
+            white-space: nowrap;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            color: #333;
+        }
+        .accordion-col1 {margin-right: 5rem;}
+        
+/* Вкладки начало */        
+        
+        .tabs {
+            min-width: 320px;
+            max-width: 100%;
+            padding: 11px 0px 0px 0px;
+            margin: 0 0 0 40px;
+        }
+        /* Стили секций с содержанием */
+        
+        .tabs > section {
+            display: none;
+            padding: 15px;
+            background: #fff;
+            
+        }
+        
+        .tabs > section > p {
+            margin: 0 0 5px;
+            line-height: 1.5;
+            color: #383838;
+            /* прикрутим анимацию */
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+        }
+        /* Описываем анимацию свойства opacity */
+        
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        /* Прячем чекбоксы */
+        
+        .tabs > input {
+            display: none;
+            position: absolute;
+        }
+        /* Стили переключателей вкладок (табов) */
+        
+        .tabs > label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            text-align: center;
+            color: #aaa;
+            background: #fff;
+            font-size: 19px;
+        }
+        
+        /* Изменения стиля переключателей вкладок при наведении */
+        
+        .tabs > label:hover {
+            color: #888;
+            cursor: pointer;
+        }
+        /* Стили для активной вкладки */
+        
+        .tabs > input:checked + label {
+            color: #1ecc39;
+            border-bottom: 3px solid #1ecc39;
+            background: #fff;
+        }
+        /* Активация секций с помощью псевдокласса :checked */
+        
+        #tab1:checked ~ #content-tab1,
+        #tab2:checked ~ #content-tab2,
+        #tab3:checked ~ #content-tab3,
+        #tab4:checked ~ #content-tab4 {
+            display: block;
+        }
+        /* Убираем текст с переключателей 
+* и оставляем иконки на малых экранах
+*/
+        
+        @media screen and (max-width: 680px) {
+            .tabs > label {
+                font-size: 0;
+            }
+            .tabs > label:before {
+                margin: 0;
+                font-size: 18px;
+            }
+        }
+        /* Изменяем внутренние отступы 
+*  переключателей для малых экранов
+*/
+        
+        @media screen and (max-width: 400px) {
+            .tabs > label {
+                padding: 15px;
+            }
+        }
+/* Вкладки конец */ 

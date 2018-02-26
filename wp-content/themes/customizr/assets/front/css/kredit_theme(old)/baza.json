@@ -1,0 +1,299 @@
+{
+"bank_offers": [
+{
+"bankId":72,
+"name":"Кредит «Первый почтовый 12,9%»",
+"logo":"biglogo_72.png",
+"rate":12.9,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":1825
+        },
+"amount":{
+           "min":300000,
+           "max":1000000
+		 }
+}
+]
+},
+{
+"bankId":266,
+"name":"Кредит Наличными",
+"logo":"biglogo_266.png",
+"rate":13.5,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1825
+        },
+"amount":{
+           "min":200000,
+           "max":8000000
+		 }
+}
+]
+},
+
+{
+"bankId":777,
+"name":"Кредит Наличными",
+"logo":"biglogo_777.png",
+"rate":11.9,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1120
+        },
+"amount":{
+           "min":100000,
+           "max":2000000
+		 }
+}
+]
+},
+{
+"bankId":254,
+"name":"Кредит пенсионный",
+"logo":"biglogo_254.png",
+"rate":11.5,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":380
+        },
+"amount":{
+           "min":100000,
+           "max":10000000
+		 }
+}
+]
+},
+
+{
+"bankId":330,
+"name":"Кредит персональный",
+"logo":"biglogo_330.png",
+"rate":11.99,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":3000000
+		 }
+}
+]
+},
+
+{
+"bankId":276,
+"name":"Кредит потребительский",
+"logo":"biglogo_276.png",
+"rate":12.5,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":6000000
+		 }
+}
+]
+},
+
+{
+"bankId":345,
+"name":"Кредит рефинансирование",
+"logo":"biglogo_345.png",
+"rate":11.9,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1825
+        },
+"amount":{
+           "min":50000,
+           "max":3000000
+		 }
+}
+]
+},
+{
+"bankId":327,
+"name":"Кредит Пенсионный",
+"logo":"biglogo_327.png",
+"rate":13.0,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":4000000
+		 }
+}
+]
+},
+{
+"bankId":645,
+"name":"Кредит Наличными",
+"logo":"biglogo_645.png",
+"rate":14.9,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":10000000
+		 }
+}
+]
+},
+
+{
+"bankId":805,
+"name":"Кредит Потребительский",
+"logo":"biglogo_805.png",
+"rate":10.99,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":372
+        },
+"amount":{
+           "min":100000,
+           "max":900000
+		 }
+}
+]
+},
+{
+"bankId":553,
+"name":"Кредит для бюджетников",
+"logo":"biglogo_553.png",
+"rate":12.9,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":2140
+        },
+"amount":{
+           "min":100000,
+           "max":10000000
+		 }
+}
+]
+},
+
+{
+"bankId":340,
+"name":"Кредит Потребительский",
+"logo":"biglogo_340.png",
+"rate":12.4,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":7000000
+		 }
+}
+]
+},
+
+{
+"bankId":276,
+"name":"Кредит владельцам хозяйств",
+"logo":"biglogo_276.png",
+"rate":17.0,
+ 
+"offers":[
+{
+"term":{
+           "min":30,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":6000000
+		 }
+}
+]
+},
+
+{
+"bankId":345,
+"name":"Кредит для военнослужащих",
+"logo":"biglogo_345.png",
+"rate":12.9,
+ 
+"offers":[
+{
+"term":{
+           "min":90,
+           "max":1825
+        },
+"amount":{
+           "min":200000,
+           "max":3000000
+		 }
+}
+]
+},
+
+
+{
+"bankId":72,
+"name":"Кредит знание сила",
+"logo":"biglogo_72.png",
+"rate":14.9,
+ 
+"offers":[
+{
+"term":{
+           "min":372,
+           "max":1825
+        },
+"amount":{
+           "min":100000,
+           "max":2000000
+		 }
+}
+]
+}
+]
+}
